@@ -37,6 +37,16 @@ export const GlobalStyle = createGlobalStyle`
     --webkit-font-smoothing: antialiased; // Making fonts look smoother
   }
 
+  // input, textarea, button have default fonts, that's why we are changing they too
+  body, input, textarea, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+
+  h1,h2,h3,h4,h5,h6, strong {
+    font-weight: 600;
+  }
+
   button {
     cursor: pointer;
   }
