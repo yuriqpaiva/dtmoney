@@ -76,7 +76,7 @@ export const RadioBox = styled.button<RadioBoxProps>`
   background: ${(props) =>
     props.isActive
       ? transparentize(0.9, colors[props.activeColor])
-      : transparentize(0.9, colors[props.activeColor])};
+      : "transparent"};
 
   display: flex;
   align-items: center;
